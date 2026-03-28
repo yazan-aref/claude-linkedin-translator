@@ -1,4 +1,4 @@
-# LinkedIn Translator Skill
+# LinkedIn Translator Claude Skill
 
 **By Yazan Aref**
 
