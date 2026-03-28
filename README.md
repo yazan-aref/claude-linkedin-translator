@@ -255,7 +255,7 @@ Once installed, the skill activates automatically when you ask Claude to help wi
 **Give Claude these details:**
 
 ```
-/linkednin-translator
+/linkedin-translator
 Topic: [What your post is about]
 Post type: [value / case study / CTA / behind the scenes / vulnerability]
 Length: [micro (200-400) / standard (600-1000) / long (1000-1300)]
