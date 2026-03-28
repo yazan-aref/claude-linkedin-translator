@@ -226,6 +226,83 @@ I learned these principles through building LinkedIn presence myself:
 - **Engagement-focused**: Strategic questions and complementary information in comments drive meaningful interaction, not vanity metrics
 - **Sustainable**: I built this on patterns real humans actually use, not tricks that'll get flagged in 6 months
 
+## How to Upload This Skill to Claude
+
+I designed this skill specifically for Claude, so you can upload it directly to your Claude profile and use it instantly whenever you need to generate LinkedIn content.
+
+### Step-by-Step Upload Process
+
+**1. Get the skill file**
+   - You should have the `linkedin-translator.skill` file (it's a compressed package containing the skill definition)
+
+**2. Go to Claude's Skill Customization Page**
+   - Navigate to [https://claude.ai/customize/skills](https://claude.ai/customize/skills)
+   - Sign in if you're not already logged in
+
+**3. Upload the Skill**
+   - Click the **"Upload Skill"** button (or similar upload option on that page)
+   - Select the `linkedin-translator.skill` file from your computer
+   - Claude will process the file and add it to your custom skills
+
+**4. Verify Installation**
+   - Once uploaded, you should see "linkedin-translator" listed in your available skills
+   - It will show the description: "A specialized approach to creating authentic, human-like LinkedIn content"
+
+### Using the Skill in Your Chats
+
+Once installed, the skill activates automatically when you ask Claude to help with LinkedIn content. Here's how to use it:
+
+**Give Claude these details:**
+
+```
+Topic: [What your post is about]
+Post type: [value / case study / CTA / behind the scenes / vulnerability]
+Length: [micro (200-400) / standard (600-1000) / long (1000-1300)]
+Key insight: [The one thing you want to land]
+```
+
+**Example prompt:**
+
+> "I want to create a standard-length value post about how I shifted from metrics-obsession to meaning-first building. The key insight is that growth follows when you optimize for human connection first. Use the linkedin-translator skill."
+
+Claude will then:
+- Generate a post following the hook-body-closing format
+- Include parentheticals and humanization markers
+- Vary sentence structure naturally
+- Provide a first comment optimized for that post type
+- Suggest optimal timing and hashtags
+
+### Pro Tips for Using the Skill
+
+**Plan your week upfront:** Ask Claude to generate all 7 posts at once with varying lengths and post types. This ensures you hit your length variation targets.
+
+Example prompt:
+> "Generate a week of LinkedIn posts (Mon-Sun) using the linkedin-translator skill. Mix these types: behind the scenes, 2 value posts, case study, 3 value posts, CTA. Vary lengths: micro, standard, standard, standard, long, standard, standard."
+
+**Request the first comment separately:** If you want the post and comment timed differently or want to adjust them independently, ask Claude to generate them separately.
+
+Example prompt:
+> "For this LinkedIn post about [topic], generate a first comment using the linkedin-translator skill that will drive engagement and position the link naturally."
+
+**Iterate on what works:** Monitor which posts get engagement, then ask Claude to generate similar posts with variations on the same theme.
+
+Example prompt:
+> "This post about [topic] performed well. Generate 2 new posts using the linkedin-translator skill on related angles: [angle 1] and [angle 2]."
+
+### Troubleshooting
+
+**Skill not showing up after upload?**
+- Refresh your browser and check [https://claude.ai/customize/skills](https://claude.ai/customize/skills) again
+- Make sure you uploaded the correct `.skill` file
+
+**Claude not using the skill?**
+- Explicitly mention "using the linkedin-translator skill" in your prompt
+- The skill will activate more reliably when you reference it by name
+
+**Need to update the skill?**
+- You can replace an installed skill by uploading a new version with the same name
+- Any chat using the old version will automatically update to use the new rules
+
 ## Integration with Claude
 
 When I use this skill with Claude, I provide:
